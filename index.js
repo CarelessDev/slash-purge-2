@@ -13,7 +13,7 @@ const center = new SlashCenter(client, process.env.GUILD_IDS?.split(","));
 
 client.on("ready", async (cli) => {
   console.log(`Logged in as ${cli.user.tag}`);
-  await center.syncCommands();
+  await center.syncCommands(true);
   console.log("DONE!");
   cli.destroy();
   process.exit(0);
