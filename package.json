@@ -11,8 +11,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "cocoa-discord-utils": "^1.4.2",
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0"
+    "cocoa-discord-utils": "^2.3.0",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2"
   }
 }
